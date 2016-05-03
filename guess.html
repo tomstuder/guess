@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess</title>
+</head>
+<body>
+  <script>
+    var guess;
+    var num = Math.floor((Math.random() * 10) + 1);
+    do{
+      guess = prompt("Guess a number between 1 and 10");
+      console.log(num);
+    } while (guess !=num);
+
+    document.write("BOOOM!");
+  </script>
+</body>
+</html>
